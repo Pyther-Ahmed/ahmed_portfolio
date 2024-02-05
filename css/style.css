@@ -1,0 +1,97 @@
+
+
+@import url(./fonts.css);
+
+@import url(./partials/_variables.css);
+
+@import url(./partials/_global.css);
+
+/* Start navigation */
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 10rem 0 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.header_area .main-menu .navbar .navbar-brand .logo{
+    padding: 0 2rem 0 10rem;
+    max-width: 100px;
+    height: 1000px;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 30rem;
+}   
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2x var(--playfairdisplay);
+    font-family: var(--playfairdisplay);
+    text-transform: uppercase;
+    font-weight: 500;  
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* End navigation */
+
+/* Start banner */
+
+.site-main .site-banner {
+    background: url(../img/pexels-daniel-absi-952670.jpg) no-repeat 5% 50%;    
+    background-size: 100%;
+}
+
+.site-banner img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 500px; 
+    margin: 10px; 
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 3rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+
+/* End banner */
